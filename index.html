@@ -1,56 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MKD Metal Processing</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .image-container .caption {
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>MKD Metal Processing</h1>
     </header>
-    
-    <section id="home" class="hero-section">
-        <h1>Welcome to MKD Metal Processing</h1>
-        <p>Your trusted partner in precision mechanics for the DACH region.</p>
-    </section>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>MKD Metal Processing specializes in high-quality machining parts, offering our services to clients across Germany, Austria, and Switzerland.</p>
-    </section>
-    
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="services-container">
-            <div class="service">
-                <h3>Precision Machining</h3>
-                <p>We provide top-notch precision machining services tailored to your needs.</p>
+
+    <div class="content">
+        <h2>Наши производи</h2>
+        <div class="image-container">
+            <div class="image">
+                <img src="cnc-turning.jpg" alt="CNC Turning">
+                <div class="caption">CNC Turning</div>
             </div>
-            <div class="service">
-                <h3>Custom Metal Fabrication</h3>
-                <p>Our custom metal fabrication services ensure the highest quality and durability.</p>
+            <div class="image">
+                <img src="robot.jpg" alt="Robot">
+                <div class="caption">Robot</div>
             </div>
         </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: contact@mkdmetalprocessing.com</p>
-        <p>Phone: +49 123 456 7890</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 MKD Metal Processing. All rights reserved.</p>
-    </footer>
+    </div>
 </body>
-<img src="folder_name/cnc turning.jpg" alt="cnc turning">
+</html>
